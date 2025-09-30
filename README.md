@@ -2,3 +2,5 @@
 Comp 305, Fall 2025
 - Had a problem with my first commit so I pushed it. Hopefully that is ok and I belive I fixed the issue 
 - I moved some of my new work to a doc because I was moving things around in my file directory and didn't want to delete my progress. Not trying to cause confusion on my multiple commit messages I did at the beginning
+- Picture tag media not showing up, for whatever I try 
+- Noticed a lot of websites block iframes so used wiki

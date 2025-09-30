@@ -12,6 +12,12 @@
     h1 { color: yellow; }
   </style>
 <title>Exploring HTML Elements</title>
+<style>
+  h1 {
+    color: blue;
+  }
+</style>
+<base href="https://www.example.com/" >
 </head>
 <body>
   <!-- Exploring HTML Elements -->
@@ -32,34 +38,31 @@
     <p>You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your HTML. Using style sheets, you can
         keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content
         layer separate.</p>
-    <p>
-    The <acronym title="World Wide Web">WWW</acronym> is only a component of the
-    Internet.
-    </p>
     <address>
-    <a href="elisamp@sandiego.edu">elisampson@sandiego.edu</a><br /></address>
+    <a href="elisamp@sandiego.edu">elisampson@sandiego.edu</a><br></address>
     <map name="primary">
   <area
     shape="circle"
     coords="75,75,75"
     href="left.html"
-    alt="Click to go Left" />
+    alt="Click to go Left" >
   <area
     shape="circle"
     coords="275,75,75"
     href="right.html"
-    alt="Click to go Right" />
+    alt="Click to go Right" >
 </map>
 <img
   usemap="#primary"
   src="https://dummyimage.com/350x150"
-  alt="350 x 150 pic" />
+  alt="350 x 150 pic" >
   <article class="forecast">
     <h2>Today's Weather</h2>    
     <article class="today">
       <h3>Sunny</h3>
       <p>High: 75°F</p>
       <p>Low: 55°F</p>
+    </article>
   </article>
   <p>weather is great!
     </p>
@@ -68,17 +71,14 @@
     </aside>
     <p>Enjoy your day!</p>
     <figure>
-  <figcaption>Guess the animal:</figcaption>
-  <audio controls src="/shared-assets/audio/t-rex-roar.mp3"></audio>
-  <a href="/shared-assets/audio/t-rex-roar.mp3"> Download audio </a>
+  <figcaption>Enjoy the music!</figcaption>
+  <audio controls src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+  <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"> Download audio </a>
+
   </figure>
   <p>This word is <b>bold</b></p>
-  <base href="https://www.example.com/" />
-  <base target="_blank" />
-  <base target="_top" href="https://example.com/" />
   <p>
   This is the first sentence.
-  <big>This  sentence is bigger.</big>
 </p>
 <blockquote cite="https://datatracker.ietf.org/doc/html/rfc1149">
   <p>
@@ -92,7 +92,7 @@
   </p>
 </blockquote>
 <p>
-    Hi I am gonna <br />
+    Hi I am gonna <br>
     Break the line
 </p>
 <button class="favorite styled" type="button">Click this for money</button>
@@ -113,9 +113,7 @@
     <td>notwill@sandiego.edu</td>
   </tr>
 </table>
-<center>
-  This text will be centered.
-</center>
+
 <p>More information can be found in <cite>[ISO-0000]</cite> whatever that is.</p>
 <p>
   The <code>add()</code> method adds one or more elements to the end of an
@@ -124,17 +122,17 @@
 <ul>
   <li><data value="398">Mini Ketchup</data></li>
   <li><data value="399">Jumbo Ketchup</data></li>
-  <li><data value="400">Mega Jumbo Ketchup</data></li>
+  <li><data value="400">Massive Ketchup</data></li>
 </ul>
 <label for="myColors">Choose a color:</label>
-<input list="colors" id="myColors" name="myColors" />
+<input list="colors" id="myColors" name="myColors">
 <datalist id="colors">
-  <option value="Red" />
-  <option value="Green" />
-  <option value="Blue" />
-  <option value="Yellow" />
-  <option value="Black" />
-  <option value="White" />
+  <option value="Red">
+  <option value="Green">
+  <option value="Blue">
+  <option value="Yellow">
+  <option value="Black">
+  <option value="White">
 </datalist>
 <p>Cryptids of Cornwall:</p>
 
@@ -162,17 +160,13 @@
   errors</b> in code or documents.
 </p>
 <dialog open>Hello! I'm a dialog.</dialog>
-<dir>
-  <li>Apples</li>
-  <li>Bananas</li>
-  <li>Cherries</li>
-</dir>
-<div>Hello inside a div!</div>
+
+<div>Hello in a div!</div>
 <dl>
   <dt>Coffee</dt>
-  <dd>Hot black drink</dd>
+  <dd>Hot drink</dd>
   <dt>Tea</dt>
-  <dd>Warm aromatic drink</dd>
+  <dd>Warm drink</dd>
 </dl>
 <dl>
   <dt>HTML</dt>
@@ -184,16 +178,11 @@
   <label>Username: <input type="text"></label>
 </fieldset>
 <figure>
-  <img src="/shared-assets/images/examples/elephant.jpg" alt="Sample">
-  <figcaption>A sample image</figcaption>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg" alt="Moon">
+  <figcaption>Moon</figcaption>
 </figure>
-<figure>
-  <img
-    src="/shared-assets/images/examples/elephant.jpg"
-    alt="Elephant at sunset" />
-  <figcaption>An elephant at sunset</figcaption>
-</figure>
-<font color="red" size="4">Hello in red!</font>
+
+
 <footer>
   © 2025 My Website
 </footer>
@@ -205,15 +194,15 @@
   <h1>This the best Website</h1>
 </header>
 <hgroup>
-  <h1>Main Title</h1>
-  <h2>Subtitle</h2>
+  <h1>Space Exploration</h1>
+  <p>Subheading here</p>
 </hgroup>
 <p>Above the line</p>
 <hr>
 <p>Below the line</p>
 <p>This is <i>italic</i></p>
-<iframe src="https://assets.science.nasa.gov/dynamicimage/assets/science/astro/universe/internal_resources/332/Milky_Way_illustration-1.jpeg?w=800&h=800&fit=clip&crop=faces%2Cfocalpoint"></iframe>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg" alt="Moon">
+<iframe src="https://www.wikipedia.org" width="600" height="400"></iframe>
+
 <input type="text" placeholder="Your name">
 <p>This is <ins>inserted</ins> text.</p>
 <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.</p>
@@ -227,35 +216,25 @@
   <h1>Welcome</h1>
   <p>This is my page.</p>
 </main>
-<!-- NASA photo of a galaxy (public domain) -->
 <map name="primary">
-  <!-- Circle area #1 -->
   <area
     shape="circle"
     coords="100,100,80"
     href="https://science.nasa.gov/universe/galaxies/"
     target="_blank"
-    alt="Galaxies" />
+    alt="Galaxies" >
  
-  <!-- Circle area #2 -->
   <area
     shape="circle"
     coords="300,100,80"
     href="https://www.nasa.gov"
     target="_blank"
-    alt="NASA" />
+    alt="NASA" >
 </map>
 
 
-<img
-  usemap="#primary"
-  src="https://apod.nasa.gov/apod/image/1901/IC405_Abolfath_3952.jpg"
-  alt="NASA space photo"
-  width="500">
-
-
 <p>The <mark>Milky Way Galaxy</mark> contains billions of stars.</p>
-<marquee>🚀 Welcome to the Milky Way 🌌</marquee>
+
 <menu>
   <li><a href="https://www.nasa.gov">NASA</a></li>
   <li><a href="https://science.nasa.gov/universe/galaxies/">Galaxies</a></li>
@@ -302,7 +281,7 @@
 </form>
 <picture>
   <source srcset="https://www.nasa.gov/wp-content/uploads/2023/03/edu_what_is_galaxy.jpg" type="image/jpeg">
-  <img src="https://apod.nasa.gov/apod/image/1901/IC405_Abolfath_3952.jpg" alt="Galaxy">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/330px-FullMoon2010.jpg" alt="Moon">
 </picture>
 <p>Mission Progress: <progress value="60" max="100"></progress></p>
 <p>Neil Armstrong said, <q>That's one small step for man, one giant leap for mankind.</q></p>
@@ -332,11 +311,12 @@
 </select>
 <p>Earth is our planet. <small>(Third from the Sun)</small></p>
 <video controls width="400">
-  <source src="https://svs.gsfc.nasa.gov/vis/a010000/a013800/a013835/BlackHoleSimulation360.mp4" type="video/mp4">
+  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
 <p>The <span style="color: orange;">Sun</span> is a star.</p>
-<p>Pluto was once a planet: <strike>Planet</strike> Dwarf Planet</p>
 <p>The Sun is <strong>vital</strong> for life on Earth.</p>
 <p>The formula for water is H<sub>2</sub>O.</p>
 <details>
@@ -344,7 +324,7 @@
   <p>Black holes are regions in space where gravity is so strong nothing can escape.</p>
 </details>
 <p>The theory of relativity is written as E = mc<sup>2</sup>.</p>
-<table border="1">
+<table style="border: 1px solid white;">
   <tr>
     <th>Planet</th>
     <th>Moons</th>
@@ -358,7 +338,7 @@
     <td>2</td>
   </tr>
 </table>
-<table border="1">
+<table style="border: 1px solid white;">
   <thead>
     <tr>
       <th>Planet</th>
@@ -392,12 +372,18 @@
 I launched from Earth and set course to the moon.
 </textarea>
 <p>The Moon landing happened on <time datetime="1969-07-20">July 20, 1969</time>.</p>
-<tt>Earth</tt>
 <p>The <u>Milky Way</u> is our galaxy.</p>
 <p>
   The volume of a box is <var>l</var> × <var>w</var> × <var>h</var>
 </p>
 <p>Earth is in the Milky<wbr>Way galaxy.</p>
+<my-school>USD</my-school>
+<p data-planet="Earth" data-galaxy="Milky Way">
+  Earth is in the Milky Way galaxy.
+</p>
+<script>
+  document.write(new Date());
+</script>
 
 </body>
 </html>
